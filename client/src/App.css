@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+a,.searchbtn{
+    color: #000 !important;
+}
+
+*,button{
+  font-family:cursive;
+}
+
+.brand-logo,.title{
+  font-family: "Grand Hotel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mycard{
+    margin-top: 30px;
+}
+.auth-card{
+    padding:20px;
+    text-align: center;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.input-text {
+    box-sizing:border-box !important;
+    padding-left:5px !important;
+  }
+
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .item{
+    width: 30%;
+  }
+
+  .home-card{
+    width: 550px;
+    height: max-content;
+    /* padding: 10px; */
+    margin: 30px auto;
+  }
+
+  #toast-container{
+    top:10%;
+    right:20px;
+    left:auto;
+  }
+
+  .material-icons{
+    cursor: pointer;
+  }
+
+
+
+  .search-results {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: white;
+    /* border: 1px solid #ddd; */
+    position: absolute;
+    z-index: 1000;
+    width: 200px; /*Adjust the width as needed
+    /* max-height: 200px; Optional: limit the height and make it scrollable */
+    overflow-y: none; /* Optional: make it scrollable if there are many results */
+  }
+  
+  .search-results .search-item {
+    /* background-color: #be9f9f; */
+    /* padding: 5px; */
+    border-bottom: 1px solid #ddd;
+    width: 300px;
+  }
+  
+  .search-results .search-item:last-child {
+    border-bottom: none;
+  }
+  
+  .search-results .search-item a {
+    text-decoration: none;
+    color: black;
+    display: block; 
+  }
+  
+  .search-results .search-item:hover {
+    background: #f0f0f0;
+  }
+
+  .custom-link {
+    color: blue !important;
+  }
